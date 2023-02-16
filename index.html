@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type='text/javascript' src='config.js'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Search">
+                <button id = "searchbtn"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+            </div>
+            <div class="weather-container">
+                <h2 class="city"> - </h2>
+                <button id ="convertbtn" onclick="convert()">Convert</button>
+                <h1 class="temp" id=".temp"> - °F </div> 
+                <div class="description"> - </div>   
+                <div class="wind">Wind speed:</div>
+                <div class="humidity">Humidity:</div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="./app.js" defer></script>
+</body>
+</html>
