@@ -14,8 +14,8 @@ This project was used to pratice my HTML, CSS, and JavaScript skills as a self-t
 
 To install the app, follow these steps:
 
-1. Clone the repository to your local machine using `git clone https://github.com/your-username/your-repo.git`
-2. Navigate to the project directory using `cd your-repo`
+1. Clone the repository to your local machine using `git clone https://github.com/marinaprickett/weather_app.git`
+2. Navigate to the project directory using `cd weather_app`
 3. Open the `index.html` file in your browser to run the app
 
 ### How To Use
